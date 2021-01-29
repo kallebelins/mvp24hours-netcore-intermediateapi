@@ -7,7 +7,7 @@ namespace IntermediateAPI.Core.Entity
 {
     [DataContract(IsReference = false)]
 
-    public partial class ProductCategory : EntityBaseLog<int, int>
+    public partial class ProductCategory : EntityBaseLog<int, int?>
     {
         #region [ Primitive members ]
 

@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 namespace IntermediateAPI.Core.Entity
 {
     [DataContract(IsReference = false)]
-    public partial class Product : EntityBaseLog<int, int>
+    public partial class Product : EntityBaseLog<int, int?>
     {
         #region [ Primitive members ]
 
